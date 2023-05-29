@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-image: url("./assets/left.png" );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#curriculos{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 5%;
+    
+}
+
+#curriculos h1{
+    margin-bottom: 10%;
+    font-size: 80px;
+    text-align: center;
+    height: 200px;
+}
+
+#main {
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#container{
+    display: inline-block;
+    justify-content: center;
+   text-align: center;
+    width: 380px;
+    height: 700px;
+    margin: 10px ;
+    padding:10px;
+    border: 1PX rgba(117, 182, 212, 0.645) solid;
+    border-radius: 10%;
+}
+
+#profile {
+    color: aliceblue;
+    text-align: center;
+    padding: 30px;
+}
+
+#profile p {
+    padding-top: 40px;
+    font-weight: 500;
+    margin-top: 2px;
+    font-size: 20px;
+   height: 400px;
+    text-align: left;
+}
+
+#profile button {
+    background: linear-gradient(white, white) padding-box, linear-gradient(to right, #13f78c, #0be6e6, #f700c5) border-box;
+    border-radius: 50em;
+	border: 3px solid transparent;
+    width: 200px;
+  
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.btn-imagem{
+    background: linear-gradient(white, white) padding-box, linear-gradient(to right, #13f78c, #0be6e6, #f700c5) border-box;
+    border-radius: 50em;
+	border: 3px solid transparent;
+    width: 200px;
+    
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 5px;
+}
+#janelamodal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding: 10%;
+    left: 10%;
+    top: 5%;
+    width: 80%;
+    height: 90%;
+    background-color: rgba(0, 0, 0, 0.559);
+    overflow: auto;
+    align-items: center ;
+    border-radius: 40px;
+}
+
+#imgmodal{
+   margin: auto;
+   display: block;
+   width: 100%;
+   max-width: 1500px;
+}
+
+#btfechar{
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: azure;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
